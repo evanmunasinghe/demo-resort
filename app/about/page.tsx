@@ -13,6 +13,7 @@ export const metadata: Metadata = {
   description:
     "The story of Solace Bay Resort & Spa — a family coconut grove above Suluban Beach, Uluwatu, grown into one of Bali’s most peaceful cliffside retreats.",
   alternates: { canonical: "/about" },
+  openGraph: { type: "website", siteName: "Solace Bay Resort & Spa", title: "About Us — Solace Bay Resort & Spa", description: "The story of Solace Bay Resort & Spa — a family coconut grove above Suluban Beach, Uluwatu, grown into one of Bali’s most peaceful cliffside retreats.", url: "/about" },
 };
 
 const values = [

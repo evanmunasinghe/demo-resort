@@ -23,6 +23,7 @@ export const metadata: Metadata = {
   description:
     "Reserve your stay at Solace Bay Resort & Spa — send an inquiry via WhatsApp or email, find us on the map in Uluwatu, Bali, and read answers to common questions.",
   alternates: { canonical: "/contact" },
+  openGraph: { type: "website", siteName: "Solace Bay Resort & Spa", title: "Contact & Reservations — Solace Bay Resort & Spa", description: "Reserve your stay at Solace Bay Resort & Spa — send an inquiry via WhatsApp or email, find us on the map in Uluwatu, Bali, and read answers to common questions.", url: "/contact" },
 };
 
 const socialIcons = {

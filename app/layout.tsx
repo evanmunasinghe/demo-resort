@@ -44,15 +44,14 @@ export const metadata: Metadata = {
     siteName: siteConfig.fullName,
     title: `${siteConfig.fullName} — Cliffside Resort in Uluwatu, Bali`,
     description: siteConfig.description,
-    images: [{ url: "/416527700.jpg", width: 1024, height: 667, alt: "Solace Bay Resort & Spa at golden hour" }],
   },
   twitter: {
     card: "summary_large_image",
     title: `${siteConfig.fullName} — Cliffside Resort in Uluwatu, Bali`,
     description: siteConfig.description,
-    images: ["/416527700.jpg"],
   },
-  robots: { index: true, follow: true },
+  alternates: { canonical: "/" },
+  robots: { index: true, follow: true, "max-image-preview": "large" },
 };
 
 export const viewport: Viewport = {

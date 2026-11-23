@@ -4,7 +4,12 @@ export const siteConfig = {
   tagline: "Cliffside serenity on Bali’s southern coast",
   description:
     "Solace Bay Resort & Spa is a cliffside hideaway in Uluwatu, Bali — quiet ocean-view villas, an infinity pool above the surf, a seaside spa and unhurried days by the sea.",
-  url: "https://solacebay.example.com",
+  // Set NEXT_PUBLIC_SITE_URL once you have a custom domain; on Vercel the production domain is picked up automatically.
+  url:
+    process.env.NEXT_PUBLIC_SITE_URL ??
+    (process.env.VERCEL_PROJECT_PRODUCTION_URL
+      ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+      : "http://localhost:3000"),
   phoneDisplay: "+62 361 555 0123",
   phoneHref: "+623615550123",
   whatsappNumber: "6281234567890",

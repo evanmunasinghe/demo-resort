@@ -12,6 +12,7 @@ export const metadata: Metadata = {
   description:
     "Six quiet stays at Solace Bay Resort & Spa — garden pavilions, ocean-view rooms, private pool villas and cliffside suites in Uluwatu, Bali. Rates include breakfast, transfers and daily yoga.",
   alternates: { canonical: "/rooms" },
+  openGraph: { type: "website", siteName: "Solace Bay Resort & Spa", title: "Villas & Pavilions — Solace Bay Resort & Spa", description: "Six quiet stays at Solace Bay Resort & Spa — garden pavilions, ocean-view rooms, private pool villas and cliffside suites in Uluwatu, Bali. Rates include breakfast, transfers and daily yoga.", url: "/rooms" },
 };
 
 const included = [

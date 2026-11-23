@@ -22,7 +22,7 @@ import {
 } from "@/components/icons";
 
 export const metadata: Metadata = {
-  title: "Solace Bay Resort & Spa — Cliffside Resort in Uluwatu, Bali",
+  title: { absolute: "Solace Bay Resort & Spa — Cliffside Resort in Uluwatu, Bali" },
   description:
     "A cliffside hideaway in Uluwatu, Bali. Ocean-view villas, an infinity pool above the surf, seaside spa and sunrise yoga. Book your quiet escape at Solace Bay Resort & Spa.",
   alternates: { canonical: "/" },

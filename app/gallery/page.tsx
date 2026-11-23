@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   description:
     "A visual journey through Solace Bay Resort & Spa — ocean villas, the cliffside infinity pool, spa rituals and golden hours in Uluwatu, Bali.",
   alternates: { canonical: "/gallery" },
+  openGraph: { type: "website", siteName: "Solace Bay Resort & Spa", title: "Gallery — Solace Bay Resort & Spa", description: "A visual journey through Solace Bay Resort & Spa — ocean villas, the cliffside infinity pool, spa rituals and golden hours in Uluwatu, Bali.", url: "/gallery" },
 };
 
 export default function GalleryPage() {

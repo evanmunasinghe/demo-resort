@@ -12,6 +12,7 @@ export const metadata: Metadata = {
   description:
     "Spa rituals above the surf, a 28-metre infinity pool, fire-cooked dining at Tide & Ember, sunrise yoga and island excursions — the amenities of Solace Bay Resort & Spa, Uluwatu.",
   alternates: { canonical: "/services" },
+  openGraph: { type: "website", siteName: "Solace Bay Resort & Spa", title: "Experiences & Amenities — Solace Bay Resort & Spa", description: "Spa rituals above the surf, a 28-metre infinity pool, fire-cooked dining at Tide & Ember, sunrise yoga and island excursions — the amenities of Solace Bay Resort & Spa, Uluwatu.", url: "/services" },
 };
 
 const serviceIcons = {
